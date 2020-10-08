@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { Route, RouterModule, } from '@angular/router';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { WelcomeComponent } from './observable/observable.component';
 import { AnimationeffectComponent } from './animationeffect/animationeffect.component';
 import { RefactorComponent } from './refactor/refactor.component';
 const appRoutes: Route[] = [

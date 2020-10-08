@@ -9,7 +9,7 @@ import { takeUntil } from "rxjs/operators";
   <button (click)="restartClick()" *ngIf="!isRunning && !isComplete">Return</button>
   <button  (click)="stopClick()" *ngIf="!isComplete">Stop</button>
   <button  (click)="restartClick()" *ngIf="isComplete">Restart</button>`,
-  styleUrls: ["./welcome.component.css"]
+  styleUrls: ["./observable.component.css"]
 })
 export class WelcomeComponent implements OnInit, OnDestroy {
   isRunning: boolean = true;
