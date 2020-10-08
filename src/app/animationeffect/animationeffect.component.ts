@@ -10,15 +10,7 @@ export class AnimationeffectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    document.getElementById("outer-circle").style.animation = "zoomin 5s forwards";
-    setTimeout(() => {
-      this.isFirst = false;
-      document.getElementById("outer-circle").classList.add("active");
-      document.getElementById("outer-circle").classList.remove("outer-circle");
-      //style.animation = "spin 5s infinite";
-      console.log(document.getElementById("outer-circle").style.animation);
-    }, 4500);
-    console.log(document.getElementById("outer-circle").style.animation);
+
   }
   gotoNext() {
     document.getElementById("outer-circle").style.animation = "zoomin 5s forwards";
